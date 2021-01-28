@@ -1,10 +1,8 @@
 const express = require('express');
-// const awsServerlessExpressMiddleware = require('aws-serverless-express/middleware');
 
 const app = new express();
 const bodyParser = require('body-parser');
 
-// app.use(awsServerlessExpressMiddleware.eventContext());
 
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');

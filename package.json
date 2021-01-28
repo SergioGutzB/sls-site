@@ -5,18 +5,21 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run server",
-    "server": "nodemon local.js"
+    "server": "nodemon local.js",
+    "deploy": "serverless deploy"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.7",
-    "serverless": "^2.21.1"
+    "serverless": "^2.21.1",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-plugin-include-dependencies": "^4.1.0"
   },
   "dependencies": {
+    "@vendia/serverless-express": "3.4.0",
     "body-parser": "^1.19.0",
     "ejs": "^3.1.5",
-    "express": "^4.17.1",
-    "serverless-express": "^2.0.11"
+    "express": "^4.17.1"
   }
 }

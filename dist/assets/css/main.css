@@ -44,3 +44,14 @@ a {
  margin: 0 10px;
  color: orange;
 }
+
+.compila {
+  width: 500px;
+  height: 700px;
+  background: url('../compila.jpg') no-repeat center;
+}
+.gif {
+  width: 400px;
+  height: 600px;
+  background: url('../img/work.gif') no-repeat center;
+}
