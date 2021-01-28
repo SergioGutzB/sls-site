@@ -23,6 +23,9 @@ custom:
   includeDependencies:
     always:
       - 'src/lib/**'
+  serverless-offline:
+    useChildProcesses: true
+    resourceRoutes: true
 
 package:
   exclude:
@@ -31,4 +34,5 @@ package:
 plugins:
   - serverless-apigw-binary
   - serverless-plugin-include-dependencies
+  - serverless-offline
 
